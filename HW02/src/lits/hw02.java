@@ -66,16 +66,18 @@ public class hw02 {
 
 // завдання 5
 // просумувати 15 випадкових чисел і знайти їх середнє значеня
-//
-//
-//            var randomNumber = new Random().nextInt(50);
-//            int sum = 0;
-//            if ()
 
-
-
-
-
-
+    int from = 0;
+    int to = 350;
+    double sum = 0;
+        for (int i = 0; i < 15; i++) {
+            var randomNumber = new Random().nextInt(50);
+            System.out.println(randomNumber);
+            {
+                sum +=randomNumber;
+            }
+        }
+        System.out.println("Загальна сума " + (int)sum);
+        System.out.println("Середнє аріфметичне " + sum / 15);
         }
     }
